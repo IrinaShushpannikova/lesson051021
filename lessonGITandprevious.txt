@@ -1,0 +1,511 @@
+    1  clear
+    2  lsb_release -a
+    3  clear
+    4  exit
+    5  ~
+    6  uname
+    7  fd uname
+    8  uname -a
+    9  ls
+   10  lsb_release -a
+   11  man uname
+   12  command [options][arguments]
+   13  ls repos
+   14  ls .vimrc .bash_history
+   15  uname -h
+   16  uname --h
+   17  uname --help
+   18  ~
+   19  which pdflatex
+   20  where pdflatex
+   21  whish bash
+   22  which cd
+   23  which nvidia-smi
+   24  cd /usr/bin
+   25  bin
+   26  sudo apt install
+   27  bash
+   28  sh
+   29  /ls
+   30  cd /usr/local/bin
+   31  ls
+   32  ls boot
+   33  /ls boot
+   34  /bin/sh
+   35  ls dev
+   36  cd /
+   37  ls dev
+   38  ls /dev/sd*
+   39  /ls/usr/local/bin
+   40  ls
+   41  ls home
+   42  ls lib lib64
+   43  proc cd
+   44  mkdir d
+   45  cd cd
+   46  d touch something
+   47  d echo "Hi"
+   48  echo "hi"
+   49  echo "hi">something
+   50  touch something
+   51  cd /home/datasets
+   52  cd -
+   53  cd
+   54  apt list --ls
+   55  ls
+   56  sudo apt install figlet
+   57  brew
+   58  sudo apt update
+   59  sudo apt install figlet
+   60  figlet hello ubuntu
+   61  sudo apt uninstall figlet
+   62  clear
+   63  sudo apt install figlet
+   64  figlet hello world
+   65  sudo apt remove figlet
+   66  man tourch
+   67  man touch 
+   68  touch a1 a2 a3 a4 a5 a6 a7 a8 a9 a10
+   69  for i in $( seq 1 10); do touch "files${i}"; done
+   70  l
+   71  touch otherfile{0..10}
+   72  ls
+   73  find
+   74  man find
+   75  find . -name "*{4,5,6}"
+   76  find . -name "*{4,5,6}" -delete
+   77  ls -la ~ >contents.txt
+   78  find ~ -name "file*" 
+   79  less context.text
+   80  less contents.txt
+   81  cat <contents.txt> > contents2.txt
+   82  cat <contents.txt> >contents2.txt
+   83  cat <contents.txt >contents2.txt
+   84  l
+   85  wc -l <contents 
+   86  cat /etc/passwd | sort >foo.txt
+   87  less foo.txt
+   88  sort </etc/passwd >foo.txt 2> err.txt
+   89  l
+   90  find -name x
+   91  l
+   92  find /dev 2> err.txt
+   93  history >hist.txt
+   94  l
+   95  vim hist.txt 
+   96  ls
+   97  cat etc/hist.txt
+   98  find hist.txt
+   99  where hist.txt
+  100  ls
+  101  hist.txt
+  102  ls
+  103  cat <testfile_sed.txt >out.txt
+  104  cat <contents.txt >out.txt
+  105  l
+  106  less journalctl-2021sep.log
+  107  grep ssd
+  108  cat journalctl-2021sep.log | grep -E "ssh"
+  109  cat journalctl-2021sep.log | grep -E 111.229.237.226
+  110  cat journalctl-2021sep.log | grep -E "111\.229\.237\.226"
+  111  cat journalctl-2021sep.log | grep -vi invalid
+  112  echo bla-bla
+  113  echo aba | sed 's/[ab]+//'
+  114  echo aba | sed -E 's/[ab]+//'
+  115  man grep
+  116  sort -t, -k 1 <a.ttxt
+  117  man sort
+  118  head
+  119  man tail
+  120  awk
+  121  vim 
+  122  :::
+  123  vim
+  124  cat ex
+  125  cat execute.sh
+  126  var="value"
+  127  vim
+  128  echo "hi hi"
+  129  man -k time
+  130  time
+  131  tzselect
+  132  time
+  133  man -k uptime
+  134  man uptime
+  135  info uptime
+  136  whatis uptime
+  137  whereis uptime
+  138  locate uptime
+  139  sudo apt install mlocate
+  140  locate update
+  141  locate uptime
+  142  locate readme.txt
+  143  sudo apt install mlocate
+  144  locate uptime
+  145  -w
+  146  progress -w
+  147  ls
+  148  ls -l
+  149  ping google.com
+  150  ps
+  151  ping google.com
+  152  fg\
+  153  cd /
+  154  ls
+  155  ls -l
+  156  ls -la
+  157  cd home
+  158  ls
+  159  cd irina
+  160  ls
+  161  pwd
+  162  cd a1
+  163  cd files1
+  164  pwd
+  165  cd ..
+  166  pwd
+  167  cd ../..
+  168  pwd
+  169  ls
+  170  cd home
+  171  cd irina
+  172  pwd
+  173  ls
+  174  cd /
+  175  ls
+  176  cd irina
+  177  cd home/irina
+  178  ls -a
+  179  cat hist.txt
+  180  more hist.txt
+  181  less hist.txt
+  182  touch hello.txt
+  183  ls -l
+  184  ls -1as
+  185  ls -l
+  186  cp a0 ~/home
+  187  pwd
+  188  ls
+  189  cp a1 /home
+  190  sudo cp a1 /home
+  191  cd home
+  192  cd ..
+  193  ls
+  194  cd irina
+  195  cp a*.* /home
+  196  sudo cp a*.* /home
+  197  pwd
+  198  ls
+  199  sudo cp* /home
+  200  sudo cp a* /home
+  201  cd home
+  202  cd / home
+  203  cd ..
+  204  ls
+  205  /irina
+  206  cd /irina
+  207  cd .
+  208  cd ..
+  209  ls
+  210  cd /home
+  211  cd /home/irina
+  212  ls -l
+  213  That is the total number of blocks taken up by the files, although I would expect the total to be 8 instead of 12 (using 1k blocks). Try ls -as1 to see the size in blocks of each file
+  214  sudo rm a* /home
+  215  cd ..
+  216  sudo rm a* /home
+  217  ls
+  218  cd irina
+  219  sudo cp a* -v /home
+  220  cd ..
+  221  ls
+  222  cd irina
+  223  ls
+  224  sudo cp err.txt -v /home
+  225  cd ..
+  226  ls
+  227  sudo rm err.txt -v 
+  228  ls
+  229  cd irina
+  230  history >lesson03.10_part1
+  231  vim lesson03.10_part1
+  232  ls
+  233  cat lesson03.10_part1 
+  234  That is the total number of blocks taken up by the files, although I would expect the total to be 8 instead of 12 (using 1k blocks). Try ls -as1 to see the size in blocks of each file
+  235  /sbin/ifconfig
+  236  /sbin/ifconfig|grep -v "127.0.0.1"|grep -i "inet addr"
+  237  ip addr show
+  238  /sbin/ifconfig|grep -v "127.0.0.1"|grep -i "inet addr"
+  239  sudo ifconfig
+  240  sudo /sbin/ifconfig
+  241  cd ..
+  242  pwd
+  243  sudo ifconfig
+  244  sudo /sbin/ifconfig
+  245  ip addr show
+  246  sudo ifconfig | grep "inet addr"
+  247  sudo lsof -i -P -n
+  248  doas lsof -i -P -n | grep LISTEN
+  249  sudo lsof -i -P -n | grep LISTEN
+  250  doas lsof -i -P -n | grep LISTEN ### [OpenBSD] ###
+  251  sudo doas lsof -i -P -n | grep LISTEN ### [OpenBSD] ###
+  252  netstat -tulpn | grep LISTEN
+  253  sudo apt install net-tools
+  254  sudo grep Port /etc/ssh/sshd_config
+  255  sudo netstat -tpln | egrep '(Proto|ssh)'
+  256  hostname
+  257  cat /proc/sys/kernel/hostname
+  258  sudo zypper install net-tools
+  259  sudo apt install net-tools
+  260  telnet WIN-LIHUDDA37NN 22
+  261  sudo ufw allow ftp
+  262  telnet WIN-LIHUDDA37NN 22
+  263  sudo iptables -A INPUT -p tcp -m tcp --dport 22 -m conntrack --ctstate ESTABLISHED,NEW -j ACCEPT -m comment --comment "Allow ftp connections on port 22"
+  264  telnet WIN-LIHUDDA37NN 22
+  265  psgrep xinetd 
+  266  sudo iptables -L
+  267  sudo iptables --help
+  268  sudo iptables --protocol
+  269  sudo iptables --protocol tcp
+  270  sudo iptables -p tcp
+  271  sudo iptables -p
+  272  sudo iptables -p tcp
+  273  sudo iptables-legacy -t nat -A PREROUTING -i wlan0 -p all --dport 22 -j ACCEPT
+  274  sudo iptables -L
+  275  cd /home/irina
+  276  pwd
+  277  ls
+  278  ls
+  279  cd irina/task1
+  280  cd home/irina/task1
+  281  l
+  282  cd home/irina/task1/
+  283  rm home/irina/task1/
+  284  rm home/irina/task1
+  285  pwd
+  286  cat lesson03.10_part1 
+  287  sudo rm task1 /home/irina
+  288  ls
+  289  gh repo clone IrinaShushpannikova/task1
+  290  sudo apt install gitsome
+  291  git clone https://github.com/IrinaShushpannikova/task1.git
+  292  cat task1
+  293  cd task1
+  294  pwd
+  295  ls
+  296  cd practical_1_unix_local_machine_1
+  297  ls
+  298  find *.txt -maxdepth 1 -type f | wc -l
+  299  find *.txt -maxdepth 2 -type f | wc -l
+  300  cd 4096
+  301  find *.txt -maxdepth 1 -type f | wc -l
+  302  find *.txt -type f | wc -l
+  303  cd
+  304  history >homeworktask1downloaded.txt
+  305  vim homeworktask1downloaded.txt
+  306  ls
+  307  cat homeworktask1downloaded.txt 
+  308  mkdir Dir2
+  309  ls
+  310  mkdir Dir2/Dir3
+  311  ls Dir2
+  312  cd /Dir2
+  313  cd home/irina/Dir2
+  314  cd home/irina/Dir2/
+  315  cd Dir2
+  316  cd /Dir3
+  317  ls
+  318  cd home/irina/Dir2/
+  319  cd home/irina/Dir2/Dir3
+  320  cd Dir3
+  321  mkdir Dir4
+  322  ls
+  323  mkdir -p Dir4/Dir5
+  324  ls
+  325  cd Dir4
+  326  ls
+  327  cd Dir5
+  328  cd ..
+  329  cd ../..
+  330  cd ..
+  331  ls
+  332  mv Dir2 Dir1
+  333  ls
+  334  rmdir Dir1
+  335  cd Dir1
+  336  ls
+  337  cd Dir3/Dir4/Dir5
+  338  ls
+  339  rm Dir5 
+  340  cd ..
+  341  rm Dir5
+  342  rmrdir Dir5
+  343  rmdir Dir5
+  344  ls
+  345  cd ..
+  346  rmdir Dir4
+  347  cd ..
+  348  rmdir Dir3
+  349  ls
+  350  cd ..
+  351  ls
+  352  mkdir Dir2
+  353  mkdir3
+  354  mkdir Dir3
+  355  ls
+  356  rm -R Dir*
+  357  ls
+  358  mkdir Dir2
+  359  mkdir Dir1
+  360  cp -R Dir2 Dir1
+  361  ls
+  362  cd Dir2
+  363  ls
+  364  cd ..
+  365  cd Dir1
+  366  ls
+  367  cd ..
+  368  man find
+  369  find /home -name "*.txt"
+  370  find /home/irina/task1/practical_1_unix_local_machine_1/ -name "*.txt"
+  371  find /home/irina/task1/practical_1_unix_local_machine_1/ -name "*.txt" -type f
+  372  find /home/irina/task1/practical_1_unix_local_machine_1/ -name "*.txt" -type f | wc -l
+  373  find /home/irina/task1/practical_1_unix_local_machine_1/ -name "00221*.txt" -type f | wc -l
+  374  find . -name "00221*.txt" | wc -l
+  375  ind . *.txt -maxdepth 1 -type f | wc -l
+  376  ffind . *.txt -maxdepth 1 -type f | wc -
+  377  find . *.txt -maxdepth 1 -type f | wc -l
+  378  find . "*.txt" -maxdepth 1 -type f | wc -l
+  379  find .  find *.txt -maxdepth 1 -type f | wc -l*.txt -maxdepth 1 -type f | wc -l
+  380  cd /home/irina/task1/practical_1_unix_local_machine_1/
+  381  find . -maxdepth 1 -name "*.txt" | wc -l
+  382  find  /home/irina/task1/practical_1_unix_local_machine_1/ -maxdepth 1 -name "*.txt" | wc -l
+  383  wc "*.txt"
+  384  wc *.txt
+  385  ls
+  386  /home/irina/task1/practical_1_unix_local_machine_1/4096
+  387  cd /home/irina/task1/practical_1_unix_local_machine_1/4096
+  388  wc *.txt
+  389  echo Количество строчек:
+  390  wc -l 00222038_60fb70c*.txt 
+  391  echo Количество слов: 
+  392  wc -w 00222038_60fb70c*.txt 
+  393  sort 00222038_60fb70c*.txt
+  394  cd home/irina
+  395  cd ..
+  396  ls
+  397  mkdir Box
+  398  ls
+  399  ls -l Box
+  400  ls -l contents.txt
+  401  cd Box
+  402  touch test1
+  403  ls
+  404  ls -l test1
+  405  cd
+  406  useradd -m users
+  407  /
+  408  cd ..
+  409  ls -l
+  410  cd /home/iri na
+  411  cd /home/irina
+  412  ls -l /home
+  413  sudo useradd -m users
+  414  sudo useradd -m 1234
+  415  sudo useradd -m testusers
+  416  ls -l/home
+  417  ls -l /home
+  418  sudo useradd -m users
+  419  ls -l
+  420  sudo chown testusers Box
+  421  ls -l
+  422  getent groups
+  423  getent group
+  424  groups users
+  425  groups irina
+  426  umask
+  427  umask -s
+  428  umask -S
+  429  history >lesson03.10part2
+  430  vim lesson03.10part2
+  431  cd /home/irina/task1/practical_1_unix_local_machine_1
+  432  wc -l "*.txt"
+  433  wc -l *.txt
+  434  find . -name "*.txt" | wc -l
+  435  wc -l -name "*.txt"
+  436  ls | wc -l
+  437  ls | wc -l "*.txt"
+  438  find . -name '*.txt' | xargs wc -l
+  439  sort "*.txt" | uniq -u | wc -l
+  440  sort "*.txt" | wc -l
+  441  cat *.txt | wc -l
+  442  awk 'END{print NR}' *.txt
+  443  grep -c ^ "*.txt"
+  444  find . -name '*.cpp' -type f -print0 | xargs -0 cat | wc -l
+  445  find . -name '*.txt' -type f -print0 | xargs -0 cat | wc -l
+  446  find . -name '*.txt' | wc -l
+  447  find . -name '*.txt' | xargs wc -l
+  448  echo A B C | xargs echo
+  449  echo A B C | echo
+  450  echo A B C
+  451  echo A B C | xargs echo
+  452  echo A B C | xargs -n 1 echo
+  453  find . -type f -exec wc -l {} +
+  454  find . -name "*.txt" f -exec wc -l {} +
+  455  find . -name "*.txt" -exec wc -l {} +
+  456  du -h
+  457  du -h | sort 
+  458  du -h | sort -r
+  459  sudo du -sh /* | sort -r
+  460  find . -type f -print0 | xargs -0 -I{} stat -c '%s %n' {} | sort -n
+  461  cd /
+  462  find . -type f -print0 | xargs -0 -I{} stat -c '%s %n' {} | sort -n
+  463  du -a --max-depth=1 | sort -n
+  464  du -a --max-depth=1 --exclude=/sys | sort -n
+  465  man sorn
+  466  man sort -n
+  467  man sort
+  468  sudo du -a --max-depth=1 | sort -n | head -1
+  469  sudo du -a --max-depth=1 --exclude=/sys | sort -n | head -1
+  470  find . -type f -print0 | xargs -0 -I{} stat -c '%s %n' {} | sort -n | head -1
+  471  find . -type f -print0 | xargs -0 -I{} stat -c '%s %n' {} --exclude=/sys | sort -n | head -1
+  472  stat --help
+  473  sudo du -sh /* --exclude=/sys --threshold=1k
+  474  sudo du -a --max-depth=1 --exclude=/sys --threshold=1k| sort -n 
+  475  history lesson04.10HOMEWORK1
+  476  history lesson04.10HOMEWORK1.txt
+  477  vim  lesson04.10HOMEWORK1.txt
+  478  echo "HelLo">text1.txt
+  479  vim text1.txt
+  480  sed 's/[A-Z]/\L&/g'
+  481  sed 's/[A-Z]/\L&/g' text1.txt
+  482  vim text1.txt
+  483  sed '/danger/ a Irina' text1.txt
+  484  sed -e 's/danger/danger\nVoland\n/g'
+  485  man sed
+  486  vim text1.txt
+  487  sed -e 's/danger/safety/g' -e 's/hate/love/g' text1.txt
+  488  git remote add origin https://github.com/IrinaShushpannikova/lesson051021.git
+  489  git branch -M main
+  490  ls
+  491  mkdir GitRebExcercise
+  492  cd GitRebExcercise/
+  493  ls
+  494  git clone https://github.com/IrinaShushpannikova/lesson051021.git
+  495  ls
+  496  cd lesson051021/
+  497  ls
+  498  vim Readme.md
+  499  git add .
+  500  git commit -m 'init commit'
+  501  git config --global user.email irshushpannikova@gmail.com
+  502  git config --global user.name IrinaShushpannikova
+  503  git add .
+  504  git commit -m 'init commit'
+  505  git push
+  506  vim Readme.md
+  507  git push
+  508  git add .
+  509  git commit -m 'Smthg new'
+  510  git push
+  511  history >lessonGITandprevious.txt
